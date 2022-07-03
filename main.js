@@ -24,7 +24,7 @@ function initGeo() {
       function (result) {
         result.geoObjects.options.set('preset', {
           iconLayout: 'default#image',
-          iconImageHref: './images/custom-baloon.svg',
+          iconImageHref: 'images/custom-baloon.svg',
           iconImageSize: [30, 30],
           iconImageOffset: [-10, -20]
       });
@@ -130,7 +130,7 @@ function init() {
     }, 
     {
     iconLayout: 'default#image',
-    iconImageHref: './images/custom-baloon.svg',
+    iconImageHref: 'images/custom-baloon.svg',
     iconImageSize: [30, 30],
     iconImageOffset: [-10, -20]
     }
