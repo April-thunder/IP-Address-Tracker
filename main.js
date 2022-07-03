@@ -14,7 +14,7 @@ function initGeo() {
   let location = ymaps.geolocation;
   let myMap = new ymaps.Map('map', {
       center: [70, 34],
-      zoom: 10,
+      zoom: 20,
     });
 
   location.get({
@@ -22,7 +22,12 @@ function initGeo() {
   })
     .then(
       function (result) {
-      result.geoObjects.options.set('preset', 'islands#blueCircleIcon');
+        result.geoObjects.options.set('preset', {
+          iconLayout: 'default#image',
+          iconImageHref: '/images/custom-baloon.svg',
+          iconImageSize: [30, 30],
+          iconImageOffset: [-10, -20]
+      });
       // Пропишем полученный адрес в балуне.
       result.geoObjects.get(0).properties.set({
         balloonContentBody: 'Уважаемый User, вы где-то здесь'
@@ -122,10 +127,14 @@ function init() {
 
   map.geoObjects.add(new ymaps.Placemark([lat, lng], {
     balloonContent: 'Данный IP соотоветствует этому месту'
-  }, {
-    preset: 'islands#circleIcon',
-    iconColor: '#3caa3c'
-  }));
+    }, 
+    {
+    iconLayout: 'default#image',
+    iconImageHref: '/images/custom-baloon.svg',
+    iconImageSize: [30, 30],
+    iconImageOffset: [-10, -20]
+    }
+  ));
 
   // Убираем карту, которая ранее отображена
   const prevMap = document.getElementById('map').firstElementChild;
