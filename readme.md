@@ -5,7 +5,7 @@ Exercise to improve Javascript skills
 
 ## Technologies used
 
-- JS (REST API, Promise. Yandex maps, Ymaps.geolocation)
+- JS (REST API, Promise, Yandex maps, Ymaps.geolocation)
 - HTML
 - CSS (Flexbox Layout)
 - BEM Methodology
