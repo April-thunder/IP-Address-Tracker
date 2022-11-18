@@ -8,7 +8,7 @@ Exercise to improve Javascript skills
 - JS (REST API, Promise, Yandex maps, Ymaps.geolocation, geo.ipify)
 - HTML
 - CSS (Flexbox Layout)
-- BEM Methodology
+- BEM Methodology!
 
 ## Notes
 
