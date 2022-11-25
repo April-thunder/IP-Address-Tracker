@@ -16,7 +16,7 @@ Exercise to improve Javascript skills
 - The page is adaptive from deskop to the iPhone 4
 - Сross browser compatibility
 
-## Demo
+## See Demo
 
 Click the link to see the page https://april-thunder.github.io/IP-Address-Tracker/
 
