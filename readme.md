@@ -1,7 +1,7 @@
 
 # IP Address Tracker
 
-Exercise to improve Javascript skills
+Exercise to improve Javascript skills!
 
 ## Technologies used
 
