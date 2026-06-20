@@ -1,24 +1,45 @@
-
 # IP Address Tracker
 
-Exercise to improve Javascript skills!
+A lightweight web application that displays your current IP address location on an interactive map and allows you to search for any valid IPv4 address to see its geographical location, timezone, and ISP information.
 
-## Technologies used
+![IP Address Tracker Demo](https://via.placeholder.com/800x400?text=IP+Address+Tracker)  
+*(Replace with your actual screenshot)*
 
-- JS (REST API, Promise, Yandex maps, Ymaps.geolocation, geo.ipify)
-- HTML
-- CSS (Flexbox Layout)
+---
 
+## 🚀 Features
 
-## Notes
+- **Automatic location detection** – shows your own public IP address and location on page load.
+- **IP lookup** – enter any valid IPv4 address to see its location on the map.
+- **Detailed information** – displays IP, location (city, region, postal code), timezone, and ISP.
+- **Interactive map** – powered by Yandex Maps with a custom marker.
+- **Responsive design** – works on desktop, tablet, and mobile.
+- **User‑friendly notifications** – uses the Fnon library for elegant error messages.
 
-- User can type any IP and see location
-- The page is adaptive from deskop to the iPhone 4
-- Сross browser compatibility
+---
 
-## See Demo
+## 🛠️ Technologies Used
 
-Click the link to see the page https://april-thunder.github.io/IP-Address-Tracker/
+- **HTML5, CSS3 (Flexbox)**
+- **JavaScript (ES6+)**
+- **APIs:**
+  - [ipapi.co](https://ipapi.co/) – detects current user IP and location (no API key required).
+  - [ipify.org](https://www.ipify.org/) – provides location data for any IP address (requires an API key).
+  - [Yandex Maps API](https://yandex.com/dev/maps/) – renders interactive maps.
+- **Fnon** – for custom alert dialogs.
 
+---
 
+## 📦 Getting Started
 
+### Prerequisites
+
+- A modern web browser (Chrome, Firefox, Safari, Edge).
+- Internet connection to fetch data from external APIs.
+- A (free) API key from [ipify.org](https://www.ipify.org/) to perform IP lookups.
+
+### Installation
+
+1. Clone or download this repository:
+   ```bash
+   git clone https://github.com/your-username/IP-Address-Tracker.git
